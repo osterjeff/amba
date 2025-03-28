@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "MG_Lids"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "MG_Lids_Platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "MG_Lids_Platform"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "MG_Lids_Platform"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "MG_Lids_Platform"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "MG_Lids_LandingZones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -36,7 +36,7 @@
       "value": "Yes"
     },
     "enableAMBAHybridVM": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAKeyManagement": {
       "value": "Yes"
@@ -57,7 +57,7 @@
       "value": "Yes"
     },
     "enableAMBAWeb": {
-      "value": "Yes"
+      "value": "No"
     },
     "telemetryOptOut": {
       "value": "No"
@@ -69,13 +69,13 @@
       "value": ""
     },
     "userAssignedManagedIdentityName": {
-      "value": "id-amba-prod-001"
+      "value": "id-lids-eus1-amba-001"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "4877983e-8509-44d9-b196-4a00a4c20a5b"
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-amba-monitoring-001"
+      "value": "rg-lids-use1-amba-man-001"
     },
     "ALZMonitorResourceGroupLocation": {
       "value": "eastus"
@@ -97,7 +97,9 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": [
+        "jeff.oster@3cloudsolutions.com"
+      ]
     },
     "ALZLogicappResourceId": {
       "value": ""
@@ -106,7 +108,9 @@
       "value": ""
     },
     "ALZArmRoleId": {
-      "value": []
+      "value": [
+        "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+      ]
     },
     "ALZEventHubResourceId": {
       "value": []
