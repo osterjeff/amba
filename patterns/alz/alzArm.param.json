@@ -97,9 +97,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": [
-        "jeff.oster@3cloudsolutions.com"
-      ]
+      "value": []
     },
     "ALZLogicappResourceId": {
       "value": ""
@@ -108,9 +106,7 @@
       "value": ""
     },
     "ALZArmRoleId": {
-      "value": [
-        "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
-      ]
+      "value": []
     },
     "ALZEventHubResourceId": {
       "value": []
