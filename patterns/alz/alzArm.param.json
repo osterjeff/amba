@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "MG_Lids"
+      "value": "MG_Rolling_Hills"
     },
     "platformManagementGroup": {
-      "value": "MG_Lids_Platform"
+      "value": "MG_Rolling_Hills_Platform"
     },
     "IdentityManagementGroup": {
-      "value": "MG_Lids_Platform"
+      "value": "MG_Rolling_Hills_Platform"
     },
     "managementManagementGroup": {
-      "value": "MG_Lids_Platform"
+      "value": "MG_Rolling_Hills_Platform"
     },
     "connectivityManagementGroup": {
-      "value": "MG_Lids_Platform"
+      "value": "MG_Rolling_Hills_Platform"
     },
     "LandingZoneManagementGroup": {
-      "value": "MG_Lids_LandingZones"
+      "value": "MG_Rolling_Hills_LZ"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -69,13 +69,13 @@
       "value": ""
     },
     "userAssignedManagedIdentityName": {
-      "value": "id-lids-eus1-amba-001"
+      "value": "id-rh-eus1-amba-001"
     },
     "managementSubscriptionId": {
-      "value": "4877983e-8509-44d9-b196-4a00a4c20a5b"
+      "value": "5b41d881-c90e-4c85-afe4-1c2d04492239"
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-lids-use1-amba-man-001"
+      "value": "rg-rh-use1-amba-man-001"
     },
     "ALZMonitorResourceGroupLocation": {
       "value": "eastus"
@@ -97,7 +97,9 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": [
+        "jeffoster@gmail.com"
+      ]
     },
     "ALZLogicappResourceId": {
       "value": ""
