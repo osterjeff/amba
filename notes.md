@@ -35,3 +35,9 @@ $LZManagementGroup = "MG_Lids_LandingZones"
 ## .\patterns\alz\scripts\Start-AMBA-ALZ-Remediation.ps1 -managementGroupName $LZManagementGroup -policyName Alerting-Web
 
 New-AzManagementGroupDeployment -Name "amba-GeneralDeployment" -ManagementGroupId $pseudoRootManagementGroup -Location $location -TemplateUri "https://raw.githubusercontent.com/osterjeff/amba/refs/heads/main/patterns/alz/alzArm.json" -TemplateParameterFile ".\patterns\alz\alzArm.param.json"
+
+
+
+
+
+.\Start-AzMigrateTest.ps1  -AZMigrateRG '3CloudAssessment'  -ProjectName 'vspheremigrationdiscovery'  -VMToMigrate 'HW-XCenterDB02'  -DestSubscription 'Shared-App-Prod'  -DestBubblevNet  'dev-lids-vnet-bubble'  -DestBubbleSubnet 'Open' -ProdSubscription 'Infrastructure and Technical Operations' -TenantId '0c899ad0-da83-4b2e-a353-672e31595333'  -ValidateOnly 
